@@ -1,0 +1,20 @@
+{
+  "name": "7.7.1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test1": "cypress open",
+    "mobile:headed": "npx cypress run -b chrome --headed -C cypress.mobile.config.js",
+    "mobile:headless": "npx cypress run -b edge -C cypress.mobile.config.js",
+    "notebook:headed": "npx cypress run -b edge --headed -C cypress.config.js",
+    "notebook:headless": "npx cypress run -b chrome -C cypress.config.js"
+  },
+  "keywords": [],
+  "author": "Marina Tretiakova",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^13.13.1"
+  }
+}
